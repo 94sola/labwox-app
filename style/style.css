@@ -482,9 +482,16 @@ td
     .about
     {
         justify-content: center;
-        padding: 7rem 4.5rem;
+        padding: 7.7rem 5rem;
         margin-top: 180px; 
-        font-size: 16px;
+        font-size: 1.6rem;
+    }
+
+    table
+    {
+    margin: 10px;
+    padding: 16px;
+    font-size: 1.2rem;
     }
 }
 
@@ -523,16 +530,24 @@ td
     .about
     {
         justify-content: center;
-        padding: 6rem 4rem;
-        font-size: 10px; 
+        padding: 7rem 4rem;
+        font-size: 1.6rem; 
     }
+
+    table
+    {
+    margin: 10px;
+    padding: 16px;
+    font-size: 1.2rem;
+    }
+
 }
 
 @media (max-width: 450px)
 {
     html
     {
-        font-size: 70.6%;
+        font-size: 65.6%;
     }
 
     .logo img
@@ -556,8 +571,8 @@ td
     .about
     {
         justify-content: center;
-        padding: 5.5rem 3.5rem;
-        font-size: 10px;
+        padding: 2.3rem 1.3rem;
+        font-size: 1.6rem;
     }
 
     .footer
@@ -575,6 +590,13 @@ td
         border-radius: .5rem;
         color: var(--labwox-black);
         background: var(--labwox-red);
+    }
+
+    table
+    {
+    margin: 10px;
+    padding: 28px;
+    font-size: 1.2rem;
     }
 
     h1 
